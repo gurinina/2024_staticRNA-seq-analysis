@@ -1,0 +1,20 @@
+book_filename: "RNA-seq-analysis"
+new_session: no
+rmd_files:
+  - index.Rmd
+  - lessons/01-DGE_setup_and_overview.md
+  - lessons/02-DGE_count_normalization.md
+  - lessons/03-DGE_QC_analysis.md
+  - lessons/04-DGE_DESeq2_analysis.md
+  - lessons/05-DGE_DESeq2_analysis2.md
+  - lessons/06-DGE_visualizing_results.md
+  - lessons/07-DGE_summarizing_workflow.md
+  - lessons/08-eGO_enrichment_analysis.Rmd
+  - lessons/09-DGE_ecodebook.Rmd
+delete_merged_file: no
+chapter_name: "Chapter "
+language:
+  label:
+    fig: "Figure "
+    tab: "Table "
+rmd_subdir: ["lessons"]

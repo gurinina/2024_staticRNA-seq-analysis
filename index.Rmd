@@ -1,0 +1,30 @@
+---
+title: "RNA-seq-analysis"
+output:
+  bookdown::gitbook:
+    df_print: kable
+    css: [css/git.css, css/toc.css]
+    config:
+      toc:
+        collapse: section
+      download: ["pdf", "epub"]
+github-repo: "gurinina/RNA-seq-analysis"
+url: "https://bookdown.org/ggiaever/RNA-seq-analysis"
+description: "RNA-seq analysis workshop"
+site: bookdown::bookdown_site
+documentclass: book
+favicon: "img/icons8-biotech-64.png"
+cover-image: "img/football.png"
+always_allow_html: true
+link-citations: true
+---
+
+
+# RNA-seq analysis workshop {-}
+
+<p align="center">
+  <img src="img/football333.png" alt="Welcome to Omics Science!" width="600" />
+</p>
+
+
+The published version for this module can be found on my bookdown site [RNA-seq-analysis](https://bookdown.org/ggiaever/RNA-seq-analysis/).
