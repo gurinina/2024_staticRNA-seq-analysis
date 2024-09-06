@@ -1322,7 +1322,7 @@ We can also use our homemade GO enrichment analysis. To do this we need to load 
 
 # Uncomment the following if you haven't yet installed GOenrichment.
 
-# devtools::install_github("gurinina/GOenrichment")
+devtools::install_github("gurinina/GOenrichment")
 
 library(GOenrichment)
 library(visNetwork)
@@ -1338,7 +1338,7 @@ Here we can use the GO annotations in `hGOBP.gmt` (downloaded recently) to run G
 ```{r}
 
 
-fgseaRes <-  fgsea::fgseaSimple(pathways = hGOBP.gmt,stats=foldchanges,nperm=1000,maxSize = 300,minSize = 20)
+fgseaRes <-  fgsea::fgseaSimple(pathways = hGOBP.gmt, stats = foldchanges,nperm = 1000, maxSize = 300, minSize = 20)
 
 fgsea <- data.frame(fgseaRes,stringsAsFactors = F)
 

@@ -52,3 +52,9 @@ po/*~
 rsconnect/
 
 .DS_store
+
+# bookdown files
+RNA-seq-analysis.Rmd
+RNA-seq-analysis_files/
+_book/
+_bookdown_files/

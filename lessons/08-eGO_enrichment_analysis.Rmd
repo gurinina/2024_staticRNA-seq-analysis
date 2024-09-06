@@ -333,7 +333,7 @@ Now to set up the results for viewing in a network, we use the function `visSetu
 
 
 ```{r}
-vis = visSetup(hresp$enrichInfo,hresp$edgeMat)
+vis = GOenrichment::visSetup(hresp$enrichInfo,hresp$edgeMat)
 names(vis)
 ```
 
