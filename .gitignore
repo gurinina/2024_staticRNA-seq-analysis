@@ -58,3 +58,5 @@ RNA-seq-analysis.Rmd
 RNA-seq-analysis_files/
 _book/
 _bookdown_files/
+_epub
+_pdf

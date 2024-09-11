@@ -138,7 +138,7 @@ Now that we have the normalized counts for each of the top 20 genes for all 8 sa
 
 The `pivot_longer()` function in the **tidyr** package will perform this operation and will output the normalized counts for all genes for *Mov10_oe_1* listed in the first 20 rows, followed by the normalized counts for *Mov10_oe_2* in the next 20 rows, so on and so forth.
 
-![Alt text](img/melt_wide_to_long_format.png){ width=800px }
+![Alt text](img/melt_wide_to_long_format.png){ width=500px }
 
 ```r
 # Pivoting the columns to have normalized counts to a single column
